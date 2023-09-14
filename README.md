@@ -1,7 +1,7 @@
 # hackerpwm
 Hacker environment automation script.
 
-![screenshot](https://raw.githubusercontent.com/thegoodhackertv/hackerpwm/main/env.png)
+![GIF](https://raw.githubusercontent.com/thegoodhackertv/hackerpwm/main/env.gif)
 
 # Usage
 - You can watch a video tutorial (here)
