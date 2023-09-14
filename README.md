@@ -42,4 +42,7 @@ Wallpaper is taken from ~/Pictures/wallpaper.*
 - picom
 - neovim + nvchad
 
+# Credits
+Big inspiration taken from xJackSx [repo](https://github.com/xJackSx/BSPWMparrot).
+
 # Support
