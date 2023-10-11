@@ -132,9 +132,6 @@ sudo ninja -C build install
 # To list timezones run: timedatectl list-timezones
 sudo timedatectl set-timezone "Europe/Madrid"
 
-# copy wallpapers
-cp -v $RPATH/WALLPAPERS/* ~/Pictures/
-
 mkdir ~/screenshots
 # copy all config files
 cp -rv $RPATH/CONFIGS/config/* ~/.config/
