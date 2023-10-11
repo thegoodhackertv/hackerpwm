@@ -20,7 +20,7 @@ This script requires user interaction. You can choose the default settings in an
 4. Reboot and switch to bspwm in the login screen.
 5. Enjoy!
 
-Wallpaper is taken from ~/Pictures/wallpaper.*
+Wallpaper is taken from ~/Wallpapers/wallpaper.*
 
 ## You will install:
 ### Main packages
