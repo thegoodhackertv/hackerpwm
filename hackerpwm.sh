@@ -145,7 +145,8 @@ sudo ln -s ~/.config/polybar/forest/scripts/target.sh /usr/bin/target
 sudo ln -s ~/.config/polybar/forest/scripts/screenshot.sh /usr/bin/screenshot
 
 # copy wallpapers
-cp -rv $RPATH/WALLPAPERS/* ~/Pictures/
+mkdir ~/Wallpapers/
+cp -rv $RPATH/WALLPAPERS/* ~/Wallpapers/
 
 # Set execution perms
 chmod +x ~/.config/bspwm/bspwmrc
