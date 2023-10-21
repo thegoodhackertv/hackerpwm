@@ -8,7 +8,7 @@ super + Return
 
 # program launcher
 super + d
-	/home/tgh/.config/polybar/forest/scripts/launcher.sh
+	~/.config/polybar/forest/scripts/launcher.sh
 
 # make sxhkd reload its configuration files:
 super + Escape
