@@ -75,6 +75,10 @@ rm -f ~/.zshrc
 # install zsh-autocomplete?
 cp -v $RPATH/CONFIGS/zshrc ~/.zshrc
 
+# install fzf
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+yes | ~/.fzf/install
+
 # .tmux
 rm -rf ~/.tmux
 git clone https://github.com/gpakosz/.tmux.git ~/.tmux
