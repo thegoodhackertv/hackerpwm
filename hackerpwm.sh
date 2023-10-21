@@ -63,7 +63,7 @@ font-manager -i /tmp/fonts/*.ttf
 rm -rf ~/.oh-my-zsh
 echo -e "\nType exit after zsh is launched!\n"
 sleep 5
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+yes | sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # install powerlevel10k
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
@@ -89,15 +89,11 @@ sudo tar xzvf /tmp/nvim-linux64.tar.gz --directory=/opt
 sudo ln -s /opt/nvim-linux64/bin/nvim /usr/bin/nvim
 sudo rm -f /opt/nvim-linux64.tar.gz
 
-#nvchad
-echo -e "Type :q <enter> after nvchad is installed!\n"
-sleep 5
-git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+#nvchad - needs work. Block cursor and user interaction
+# git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
 
 # install kitty terminal
-echo -e "Kitty will be launched, you can close it..\n"
-sleep 5
-curl -sL https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
+cat $RPATH/kitty-installer.sh | sh /dev/stdin
 # ~/.local/kitty.app/bin/kitty
 
 # Clone polybar & picom repos
@@ -117,9 +113,7 @@ sudo make install
 git clone --depth=1 https://github.com/adi1090x/polybar-themes.git ~/github/polybar-themes
 chmod +x ~/github/polybar-themes/setup.sh
 cd ~/github/polybar-themes
-echo -e "Choose 1. simple"
-sleep 5
-./setup.sh
+echo 1 | ./setup.sh
 
 # install picom
 cd ~/github/picom
