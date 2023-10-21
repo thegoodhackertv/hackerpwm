@@ -61,8 +61,6 @@ font-manager -i /tmp/fonts/*.ttf
 
 # install ohmyzsh
 rm -rf ~/.oh-my-zsh
-echo -e "\nType exit after zsh is launched!\n"
-sleep 5
 yes | sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # install powerlevel10k
