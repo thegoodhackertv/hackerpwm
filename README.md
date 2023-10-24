@@ -1,12 +1,12 @@
 # hackerpwm
-Hacker environment automation script.
+Deploy the best environment for Kali Linux.
 
 ![GIF](https://raw.githubusercontent.com/thegoodhackertv/hackerpwm/main/env.gif)
 
 ## Usage
 - You can watch a video tutorial (here)
-- The use of a new/clean installation is recommended.
-- Tested on Kali Linux 2023 VMware, Virtualbox and bare metal.
+- The use of a new/clean Kali Linux 2023 installation is recommended.
+- Tested on Kali Linux 2023 with VMware, VirtualBox and bare metal.
 
 1. clone repo `git clone https://github.com/thegoodhackertv/hackerpwm.git`
 2. Change directory `cd hackerpwm`
@@ -18,23 +18,23 @@ Wallpaper is taken from ~/Wallpapers/wallpaper.*
 
 ## You will install:
 ### Main packages
-- hack nerd fonts
-- kitty
-- tmux + oh my tmux
+- Hack Nerd Fonts
+- Kitty
+- Rmux + oh my tmux
 - lsd
-- python + pip + bpython
-- neofetch
-- batcat
-- scrot
+- Python + pip + bpython
+- Neofetch
+- Batcat
+- Scrot
 - feh
 - oh my zsh + plugins
-- powerlevel10k
-- rofi
+- Powerlevel10k
+- Rofi
 - Bspwm
-- polybar
-- sxhkd
-- picom
-- neovim + nvchad
+- Polybar
+- Sxhkd
+- Picom
+- Neovim
 
 ## Credits
 Big inspiration taken from xJackSx [repo](https://github.com/xJackSx/BSPWMparrot).
