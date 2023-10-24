@@ -25,7 +25,7 @@ echo -e "\thackerpwm - Hacker environment automation script."
 echo -e "\t\tAndrés J. Moreno (Aka. TheGoodHacker)"
 sleep 3
 echo -e "\nInstallation will begin soon..\n"
-sleep 5
+sleep 4
 
 RPATH=`pwd`
 
