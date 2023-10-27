@@ -447,3 +447,4 @@ set -g @themepack 'powerline/double/orange'
 #
 # "$@"
 # # /!\ do not remove the previous line
+set-option -g default-shell /bin/zsh
