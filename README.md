@@ -4,7 +4,7 @@ Deploy the best environment for Kali Linux.
 ![GIF](https://raw.githubusercontent.com/thegoodhackertv/hackerpwm/main/env.gif)
 
 ## Usage
-- You can watch a video tutorial (here)
+- You can watch a video tutorial ([CLICK HERE](https://youtu.be/oVgWy5Z9Owc))
 - The use of a new/clean Kali Linux 2023 installation is recommended.
 - Tested on Kali Linux 2023 with VMware, VirtualBox and bare metal.
 
