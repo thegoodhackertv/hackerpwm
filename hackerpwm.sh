@@ -37,8 +37,8 @@ sudo apt install -y git vim feh scrot scrub zsh rofi xclip xsel locate neofetch 
 imagemagick ranger kitty tmux python3-pip font-manager lsd bpython open-vm-tools-desktop open-vm-tools # snapd
 
 # install environment dependencies
-sudo apt install -y build-essential xcb libxcb-util0-dev libxcb-ewmh-dev libxcb-randr0-dev \
-libxcb-icccm4-dev libxcb-keysyms1-dev libxcb-xinerama0-dev libasound2-dev libxcb-xtest0-dev libxcb-shape0-dev
+sudo apt install -y build-essential libxcb-util0-dev libxcb-ewmh-dev libxcb-randr0-dev \
+libxcb-icccm4-dev libxcb-keysyms1-dev libxcb-xinerama0-dev libasound2-dev libxcb-xtest0-dev libxcb-shape0-dev # (xcb removed)
 
 # install polybar requirements
 sudo apt install -y cmake cmake-data pkg-config python3-sphinx libcairo2-dev libxcb1-dev libxcb-util0-dev \
