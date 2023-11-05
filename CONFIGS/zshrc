@@ -105,7 +105,7 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 alias ls='lsd'
-alias cat='batcat'
+alias cat='bat'
 alias vi='nvim'
 alias vim='nvim'
 alias catn='/usr/bin/cat'
