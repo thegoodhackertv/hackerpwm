@@ -30,11 +30,10 @@ sleep 4
 RPATH=`pwd`
 
 # update and upgrade all
-sudo apt update
-sudo apt upgrade -y
+ sudo apt update && sudo apt -y full-upgrade
 
 # install packages 
-sudo apt install -y git vim feh scrot scrub zsh rofi xclip xsel bat locate neofetch wmname acpi bspwm sxhkd \
+sudo apt install -y git vim feh scrot scrub zsh rofi xclip xsel locate neofetch wmname acpi bspwm sxhkd \
 imagemagick ranger kitty tmux python3-pip font-manager lsd bpython open-vm-tools-desktop open-vm-tools # snapd
 
 # install environment dependencies
